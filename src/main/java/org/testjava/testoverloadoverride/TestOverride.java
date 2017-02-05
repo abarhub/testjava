@@ -1,4 +1,4 @@
-package org.testjava.TestOverloadOverride;
+package org.testjava.testoverloadoverride;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,5 +1,8 @@
 package org.testjava.testexercices;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.IOException;
 
 /**
@@ -7,7 +10,10 @@ import java.io.IOException;
  */
 public class TestRes {
 
-	public static void main(String[] args) {
+	public static final Logger LOG = LoggerFactory.getLogger(TestRes.class);
+
+	public static void test() {
+		LOG.info("* TestRes.test :");
 		try (MyResource1 r1 = new MyResource1();
 		     MyResource2 r2 = new MyResource2();) {
 			System.out.print("T ");
@@ -16,5 +22,6 @@ public class TestRes {
 		} finally {
 			System.out.print("F ");
 		}
+		System.out.println();
 	}
 }
