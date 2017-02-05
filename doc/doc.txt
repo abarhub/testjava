@@ -3,6 +3,8 @@
 -Override concerne la redéfinition d'une methode d'une classe ancetre. Elle peut avoir l'annotation
 @Override, mais c'est pas obligatoire. Les paramètres doivent être les mêmes.
 -Overload ajoute une autre définition d'une methode avec d'autres paramètres.
+-Quand il y a une redéfinition (override), le type de retour peut être un sous type.
+-Quand il y a une redéfinition (override), les types des paramètres ne peuvent pas changer.
 
 
 

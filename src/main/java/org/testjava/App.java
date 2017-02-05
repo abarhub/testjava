@@ -2,7 +2,7 @@ package org.testjava;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testjava.TestOverloadOverride.TestOverload;
+import org.testjava.TestOverloadOverride.TestOverride;
 
 /**
  * Hello world!
@@ -16,7 +16,7 @@ public class App
     {
         LOG.info("Debut");
 
-        TestOverload.test();
+        TestOverride.test();
 
         LOG.info("Fin");
     }
