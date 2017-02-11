@@ -1,0 +1,16 @@
+
+
+Java :
+-tester le this dans une lambda
+-tester 2 methodes qui ont des paramètres lambda différents, voir pour la résolution de conflits
+-tester une lambda qui utiliser une des methodes default de l'interface
+-voir quel est le type d'une methode avec plusieurs paramètres (>=5 par exemple)
+-voir si on peut utiliser un return dans une lambda non bloque
+-voir si on est obligé d'utiliser un return à la fin d'un bloque (si lambda avec retour et si lambda sans type de retour)
+-voir pour faire les when de Mockito en lambda
+-les generiques :
+        -les wildscard ne permettent pas les setter, mais que les getter.
+        -un type generique ne peut pas être utiliser sur un champs statique ( private T var;)
+        -un type generique ne peut pas être instancié (new T())
+        -un type generique ne peut pas être instancier comme tableau (new T[10])
+
