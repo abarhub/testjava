@@ -15,4 +15,5 @@ Java :
         -un type generique ne peut pas être instancier comme tableau (new T[10])
 -quel est le type d'une methode avec 5 paramètres
 -comment gérer la référence à une methode s'il y a plusieurs implémentations de cette methode
+-tester à fond les navigableMap et navigableSet
 
