@@ -13,4 +13,6 @@ Java :
         -un type generique ne peut pas être utiliser sur un champs statique ( private T var;)
         -un type generique ne peut pas être instancié (new T())
         -un type generique ne peut pas être instancier comme tableau (new T[10])
+-quel est le type d'une methode avec 5 paramètres
+-comment gérer la référence à une methode s'il y a plusieurs implémentations de cette methode
 
