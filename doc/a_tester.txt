@@ -16,4 +16,5 @@ Java :
 -quel est le type d'une methode avec 5 paramètres
 -comment gérer la référence à une methode s'il y a plusieurs implémentations de cette methode
 -tester à fond les navigableMap et navigableSet
+-comprendre pourquoi on peut utiliser une reference vers System.out.printLn dans forEach
 
