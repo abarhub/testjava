@@ -16,6 +16,7 @@ public class TestOpShort {
 	}
 
 	private static void test1() {
+		LOG.info("test1()");
 		short s1 = 5, s2 = 6;
 		short s3 = (short) (s1 + s2);
 

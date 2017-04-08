@@ -1,2 +1,4 @@
 
 -Pour les expressions, l'ajout de 2 types <=int retourne un int. S'il y a un long, cela retourne un long
+-les operateurs && et || sont en coupe circuit. Les operateurs & et | ne sont pas en coupe circuit.
+
