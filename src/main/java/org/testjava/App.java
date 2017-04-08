@@ -3,7 +3,7 @@ package org.testjava;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testjava.programmer2.functionnal.TestFunctionnal;
-import org.testjava.testoverloadoverride.TestOverride;
+import org.testjava.programmer2.testoverloadoverride.TestOverride;
 import org.testjava.programmer2.testexercices.TestRes;
 
 /**

@@ -1,5 +1,5 @@
 
-* Overload / Override : org.testjava.testoverloadoverride.TestOverride.test
+* Overload / Override : org.testjava.programmer2.testoverloadoverride.TestOverride.test
 -Override concerne la redéfinition d'une methode d'une classe ancetre. Elle peut avoir l'annotation
 @Override, mais c'est pas obligatoire. Les paramètres doivent être les mêmes.
 -Overload ajoute une autre définition d'une methode avec d'autres paramètres.
