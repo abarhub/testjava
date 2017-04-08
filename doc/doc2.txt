@@ -1,0 +1,2 @@
+
+-Pour les expressions, l'ajout de 2 types <=int retourne un int. S'il y a un long, cela retourne un long
