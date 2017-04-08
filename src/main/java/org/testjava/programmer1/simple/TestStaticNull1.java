@@ -1,4 +1,4 @@
-package org.testjava.simple;
+package org.testjava.programmer1.simple;
 
 /**
  * Created by Alain on 08/04/2017.

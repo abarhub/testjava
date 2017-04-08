@@ -1,4 +1,4 @@
-package org.testjava.package1;
+package org.testjava.programmer2.package1;
 
 /**
  * Created by Alain on 31/12/2016.

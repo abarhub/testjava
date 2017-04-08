@@ -1,4 +1,4 @@
-package org.testjava.functionnal;
+package org.testjava.programmer2.functionnal;
 
 /**
  * Created by Alain on 26/02/2017.

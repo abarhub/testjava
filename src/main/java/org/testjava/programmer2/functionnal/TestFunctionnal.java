@@ -1,4 +1,4 @@
-package org.testjava.functionnal;
+package org.testjava.programmer2.functionnal;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

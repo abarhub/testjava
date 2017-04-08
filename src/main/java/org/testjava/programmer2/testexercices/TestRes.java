@@ -1,4 +1,4 @@
-package org.testjava.testexercices;
+package org.testjava.programmer2.testexercices;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

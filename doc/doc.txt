@@ -15,7 +15,7 @@
 -s'il y a plusieurs variables, la fermeture se fait dans le même ordre que l'ouverture,
 c-a-d s'il y a :
 try(Res tmp1=new Res(),tmp2=new Res()){ }
-La variable tmp1 sera fermée avant tmp2. C'est bizard, mais c'est comme cela. (cf org.testjava.testexercices.TestRes.test)
+La variable tmp1 sera fermée avant tmp2. C'est bizard, mais c'est comme cela. (cf org.testjava.programmer2.testexercices.TestRes.test)
 
 * classes imbriqués :
 -une interface inclu dans une autre classe est obligatoirement static, et ce mot clef n'est pas obligatoire.

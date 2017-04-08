@@ -1,4 +1,4 @@
-package org.testjava.testexercices;
+package org.testjava.programmer2.testexercices;
 
 import java.io.IOException;
 

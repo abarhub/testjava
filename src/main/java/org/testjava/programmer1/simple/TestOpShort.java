@@ -1,4 +1,4 @@
-package org.testjava.simple;
+package org.testjava.programmer1.simple;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package org.testjava.stream;
+package org.testjava.programmer2.stream;
 
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
