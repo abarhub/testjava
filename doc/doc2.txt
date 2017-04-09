@@ -1,4 +1,10 @@
 
 -Pour les expressions, l'ajout de 2 types <=int retourne un int. S'il y a un long, cela retourne un long
 -les operateurs && et || sont en coupe circuit. Les operateurs & et | ne sont pas en coupe circuit.
+-Pour un champs static, faire "variable.nomChampsStatic" ne donne pas une exception de pointeur null, même si "variable" est nulle.
+-un switch ne peut être utilisé que sur les types short, byte, int, char, String, enum et pas sur les types long, double, float
+-les "case" d'un switch doivent être constant. On peut donc mettre une variable finale, à la condition qu'elle soit initialisée  à la déclaration. Sinon, il ne peut pas déterminer la valeur à la compilation.
+-pour un for, les 3 parties ne sont pas obligatoire, mais il fat=ut quand même mettre les ';'.
+
+
 
