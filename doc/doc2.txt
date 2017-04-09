@@ -6,6 +6,6 @@
 -les "case" d'un switch doivent être constant. On peut donc mettre une variable finale, à la condition qu'elle soit initialisée  à la déclaration. Sinon, il ne peut pas déterminer la valeur à la compilation.
 -pour un for, les 3 parties ne sont pas obligatoire, mais il fat=ut quand même mettre les ';'.
 -quand on additionne, le typage est calculé de gauche à droite. Donc 5 + 8 + "aaa"+ 1 + 2 donne la chaine de caractère "13aaa12".
-
+-le _ dans un nombre ne doit pas être au début, ni à la fin, ni collé au x ni entre le 0 et le x, ni entre le 0 et le b.
 
 
