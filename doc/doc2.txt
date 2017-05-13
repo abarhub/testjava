@@ -7,5 +7,6 @@
 -pour un for, les 3 parties ne sont pas obligatoire, mais il fat=ut quand même mettre les ';'.
 -quand on additionne, le typage est calculé de gauche à droite. Donc 5 + 8 + "aaa"+ 1 + 2 donne la chaine de caractère "13aaa12".
 -le _ dans un nombre ne doit pas être au début, ni à la fin, ni collé au x ni entre le 0 et le x, ni entre le 0 et le b.
+-le mot cle super peut être utilisé pour accéder à une methode ou un champs de la classe parente
 
 
