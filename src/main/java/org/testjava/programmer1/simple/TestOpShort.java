@@ -13,6 +13,7 @@ public class TestOpShort {
 	public static void main(String args[]) {
 		test1();
 		test2();
+		test3();
 	}
 
 	private static void test1() {
@@ -44,5 +45,14 @@ public class TestOpShort {
 		i1 = 10;
 		i = i1++ + i1++;
 		LOG.info("i={},i1={},i2={}", i, i1, i2);
+	}
+
+	private static void test3() {
+		LOG.info("test3()");
+		int i = 1;
+		LOG.info("i={},i<<1={},i>>1={},i>>>1={}", i, i << 1, i >> 1, i >>> 1);
+
+		i = -8;
+		LOG.info("i={},i<<1={},i>>1={},i>>>1={}", i, i << 1, i >> 1, i >>> 1);
 	}
 }
