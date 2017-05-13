@@ -56,7 +56,7 @@ public class TestOverride {
 			LOG.info("Override2.methode1(char) : {}", c);
 		}
 
-		// c'ets un overload
+		// c'est un overload
 		//@Override
 		public void methode1(int i, int j) {
 			LOG.info("Override2.methode1(int,int) : {},{}", i, j);
