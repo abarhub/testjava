@@ -20,6 +20,7 @@ public class TestDivers {
 	public static void main(String args[]) {
 		test1();
 		test2();
+		test3();
 	}
 
 	private static void test1() {
@@ -58,5 +59,22 @@ public class TestDivers {
 		LOG.info("Int1.methode1()={},Int2.methode1()={}", Int1.methode1(), Int2.methode1());
 	}
 
+	private static void test3() {
+		// ne compile pas :
+		//LocalDate d= LocalDate.of(2015,5);
+
+		// ne compile pas :
+		/*String s="456";
+		StringBuilder b=new StringBuilder("852");
+		LOG.info("c2={}", s==b);*/
+
+		byte b = 5;// pas besoin de cast
+		int i = 5;
+		byte b2 = (byte) i;// cast obligatoire
+
+		String s1="abc";
+		//StringBuilder sb1=(String)s1;
+		Object o1=s1;
+	}
 
 }
